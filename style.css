@@ -258,7 +258,7 @@ body .antimice2 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	animation: shrinken 2s infinite;
+	animation: shrinken 3s linear infinite;
 }
 
 body .antimice3 {
@@ -270,8 +270,7 @@ body .antimice3 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;	
-	animation-timing-function: linear;
-	animation: flippy 30s infinite;
+	animation: flippy 30s linear infinite;
 }
 
 .middle{

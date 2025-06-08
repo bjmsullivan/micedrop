@@ -1,5 +1,11 @@
 body{
-    background-color: LightCoral;
+	background-image: url('stars.gif');
+	background-repeat: repeat;
+	background-position: top left;
+	background-attachment: fixed;
+	background-size: auto;
+	margin: 0;
+	padding: 0;
 }
 
 .shiny{
@@ -217,6 +223,6 @@ body .antimice {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color:LightBlue;
+    background-color: rgba(211, 211, 211, 0.7);
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
 }

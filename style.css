@@ -65,6 +65,27 @@ body{
     }
 }
 
+@keyframes shrinken{
+	0%{
+		transform: scale(1);
+	}
+	80%{
+		transform: scale(1);
+	}
+	85%{
+		transform: scale(0.7);
+	}
+	90%{
+		transform: scale(1);
+	}
+	95%{
+		transform: scale(0.7);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+
 @keyframes woah{
     0%{
         text-shadow: 0px 0px rgba(0, 0, 0, 1), 0px 0px rgba(0, 0, 0, 1);
@@ -214,6 +235,18 @@ body .antimice {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+body .antimice2 {
+	max-width: 100%;
+	max-height: 100%;
+	width: 500px;
+	height: auto;
+	object-fit: contain;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	animation: shrinken 2s infinite;
 }
 
 

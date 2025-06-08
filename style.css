@@ -1,5 +1,5 @@
 body{
-    background-color: aqua;
+    background-color: LightCoral;
 }
 
 .shiny{
@@ -217,6 +217,6 @@ body .antimice {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color:lightgoldenrodyellow;
+    background-color:LightBlue;
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
 }

@@ -219,6 +219,18 @@ body{
     }
 }  
 
+@keyframes flippy{
+	0%{
+		transform: scaleX(1);
+	}
+	50%{
+		transform: scaleX(-1);
+	}
+	100%{
+		transform: scaleX(1);
+	}
+}
+
 .weirdr{
     animation: weirdr 1s infinite;
 
@@ -249,6 +261,17 @@ body .antimice2 {
 	animation: shrinken 2s infinite;
 }
 
+body .antimice3 {
+	max-width: 100%;
+	max-height: 100%;
+	width: 500px;
+	height: auto;
+	object-fit: contain;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	animation: flippy 30s infinite;
+}
 
 .middle{
     font-size: xx-large;

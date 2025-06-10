@@ -247,6 +247,7 @@ body .antimice {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	animation: wigglejitter 0.5s steps(1, end) infinite;
 }
 
 body .antimice2 {
@@ -281,4 +282,12 @@ body .antimice3 {
     text-align: center;
     background-color: rgba(211, 211, 211, 0.7);
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+
+@keyframes wigglejitter {
+  0%   { transform: rotate(-2deg); }
+  25%  { transform: rotate(3deg); }
+  50%  { transform: rotate(-4deg); }
+  75%  { transform: rotate(2deg); }
+  100% { transform: rotate(0deg); }
 }

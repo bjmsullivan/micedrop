@@ -276,11 +276,11 @@ body .antimice3 {
 
 .middle{
     font-size: xx-large;
-    width: 90%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: rgba(211, 211, 211, 0.7);
+    background-color: rgba(55, 55, 55, 0.3);
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
 }
 

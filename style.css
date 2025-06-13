@@ -88,16 +88,16 @@ body{
 
 @keyframes woah{
     0%{
-        text-shadow: 0px 0px rgba(0, 0, 0, 1), 0px 0px rgba(0, 0, 0, 1);
+        text-shadow: 0px 0px rgba(211, 211, 211, 1), 0px 0px rgba(211, 211, 211, 1);
     }
     50%{
-        text-shadow: 0px 0px rgba(0, 0, 0, 1), 0px 0px rgba(0, 0, 0, 1);
+        text-shadow: 0px 0px rgba(211, 211, 211, 1), 0px 0px rgba(211, 211, 211, 1);
     }
     75%{
-        text-shadow: 8px 12px rgba(0, 0, 0, 0.5), -8px -12px rgba(0, 0, 0, 0.5);
+        text-shadow: 8px 12px rgba(211, 211, 211, 0.5), -8px -12px rgba(211, 211, 211, 0.5);
     }
     100%{
-        text-shadow: -19px -8px rgba(0, 0, 0, 0), 19px 8px rgba(0, 0, 0, 0);
+        text-shadow: -19px -8px rgba(211, 211, 211, 1), 19px 8px rgba(211, 211, 211, 1);
     }
 }
 
@@ -108,16 +108,16 @@ body{
 
 @keyframes drunk{
     0%{
-        text-shadow: 0px 0px rgba(0, 0, 0, 1), 0px 0px rgba(0, 0, 0, 1);
+        text-shadow: 0px 0px rgba(211, 211, 211, 1), 0px 0px rgba(211, 211, 211, 1);
     }
     25%{
-        text-shadow: 0px 0px rgba(0, 0, 0, 1), 0px 0px rgba(0, 0, 0, 1);
+        text-shadow: 0px 0px rgba(211, 211, 211, 1), 0px 0px rgba(211, 211, 211, 1);
     }
     75%{
-        text-shadow: 3px 0px rgba(0, 0, 0, 0.5), -3px 0px rgba(0, 0, 0, 0.5);
+        text-shadow: 3px 0px rgba(211, 211, 211, 0.5), -3px 0px rgba(211, 211, 211, 0.5);
     }
     100%{
-        text-shadow: 0px 0px rgba(0, 0, 0, 1), 0px 0px rgba(0, 0, 0, 1);
+        text-shadow: 0px 0px rgba(211, 211, 211, 1), 0px 0px rgba(211, 211, 211, 1);
     }
 }
 
